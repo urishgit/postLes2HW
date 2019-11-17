@@ -15,7 +15,7 @@ import telran.forum.dto.UserAccountDto;
 @ManagedResource
 
 public class UserAccountConfiguration {
-	@Value("${exp.value}")
+
 int exPeriod;
 
 	

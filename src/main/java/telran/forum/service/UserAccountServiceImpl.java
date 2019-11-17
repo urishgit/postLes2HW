@@ -6,6 +6,7 @@ import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.annotation.AccessType;
+import org.springframework.stereotype.Service;
 
 import telran.forum.configoration.UserAccountConfiguration;
 import telran.forum.dao.UserAccountRepository;
@@ -14,7 +15,7 @@ import telran.forum.dto.UserProfileDto;
 import telran.forum.dto.UserRegisterDto;
 import telran.forum.exeptions.UserExistException;
 import telran.forum.model.UserAccount;
-
+@Service
 public class UserAccountServiceImpl implements UserAccountService{
 
 	@Autowired
